@@ -22,7 +22,7 @@ function connect() {
 }
 
 function getUrlConnection() {
-    return 'mongodb://' + db.usuario + ':' + db.senha + '@ds155191.mlab.com:55191/mean-delta-werlon';
+    return 'mongodb://' + db.usuario + ':' + db.senha + '@ds155841.mlab.com:55841/meandelta';
 }
 
 module.exports = MongoDBConnection();
